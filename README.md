@@ -5,6 +5,9 @@ Stock Diversity is a tool designed for financial analysis. It grabs data for tic
 Simply run main.py and follow the instructions.
 
 Libraries that need to be installed:
+
+Notation : pip install **library** 
+
 - yfinance
 - pandas
 - seaborn
