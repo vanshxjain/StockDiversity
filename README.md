@@ -1,13 +1,20 @@
 # Stock Diversity
 Stock Diversity is a tool designed for financial analysis. It grabs data for tickers and generates a heatmap to visualize the relationship between each stock.
 
-##How it Works
-First User Inputs:
-*Start Date
-*End Date
-*String with Ticker Symbols
+## Instructions
+Simply run main.py and follow the instructions.
 
-Generates  clustered heat map that visualizes the relationships between different stocks in a set time frame.
-All stock data is pulled from Yahoo Finance.
-The algorithim uses the Pearson Correlation coefficient on daily percentage returns to fidn relationships between stocks.
-Ward clustering is implemented to find which stocks are closely related and then the data is shown as a heatmap.
+Libraries that need to be installed:
+- yfinance
+- pandas
+- seaborn
+- matplotlib
+
+## How it Works
+First User Inputs:
+* Start Date
+* End Date
+* String with Ticker Symbols
+
+Using the yfinance API, the data for each ticker is downloaded. We then find the daily percentage change and use this data to calculate the Pearson Correlation Coefficient between the stocks. Ward clustering is applied to return a neatly organized heatmap
+
