@@ -11,10 +11,13 @@ Libraries that need to be installed:
 - matplotlib
 
 ## How it Works
-First User Inputs:
+User Inputs:
 * Start Date
 * End Date
 * String with Ticker Symbols
+
+Output:
+- Clustered Heat Map
 
 Using the yfinance API, the data for each ticker is downloaded. We then find the daily percentage change and use this data to calculate the Pearson Correlation Coefficient between the stocks. Ward clustering is applied to return a neatly organized heatmap
 
