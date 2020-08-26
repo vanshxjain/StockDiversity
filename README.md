@@ -38,3 +38,5 @@ Output:
 - Clustered Heat Map
 
 The purpose of this application is to allow for a visualization of ones stock portfolio and to predict how each individual stock would behave on a given trading day. The user can use this tool to diversify their portfolio by aiming to have a low correlation between most of their stocks (a lighter colored graph) so that their investments are spread across a wide variety of sectors and can have a lower risk factor if a certain industry crashes.
+
+For a more comprehensive look on how I came about this algorithm and my research into this topic please click [here](https://colab.research.google.com/drive/1L6msyOvKkDKKKw3Kf7NTOwFi_-tLlyR-?usp=sharing)
