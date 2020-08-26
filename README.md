@@ -4,7 +4,11 @@ Stock Diversity is a tool designed for financial analysis. It grabs data for tic
 ## Instructions
 Simply run main.py and follow the instructions.
 
-Libraries that need to be installed:
+Libraries Needed:
+- yfinance
+- pandas
+- seaborn
+- matplotlib
 
 Notation :
 
@@ -17,12 +21,6 @@ conda install **library**
 
 conda install -c ranaroussi yfinance
 ***only for yfinance library***
-
-Libraries Needed:
-- yfinance
-- pandas
-- seaborn
-- matplotlib
 
 ## How to Read the Map
 Consider the following example output:
